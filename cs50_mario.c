@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+const int n=3;
+for(int row=1;row<=n;row++){
+    for(int col=1;col<=n;col++){
+        printf("#");
+    }
+    printf("\n");
+}
+return 0;
+}
